@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex">
+    
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-title">Trivia</h1>
+                <div class="quiz-score flex">
+                    <span id="question-index"></span>/<span id="total-question" ></span> 
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question"><!--Pregunta muy preguntosa? <br> <span class="category">Cosas de vida</span>--> </h2>
+                <ul class="quiz-options">
+                   <!--<li>1. Hyper</li>
+                    <li>1. Hyper</li>
+                    <li>1. Hyper</li>
+                    <li>1. Hyper</li>-->
+                </ul>
+                <div id="result">
+
+                </div>
+            </div>
+
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Checar respuesta</button>
+                <button type="button" id="play-again">Jugar de nuevo?</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./scriptchtgpt.js"></script>
+</body>
+</html>
